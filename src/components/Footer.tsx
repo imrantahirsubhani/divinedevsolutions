@@ -1,4 +1,5 @@
-import { Github, Linkedin, Twitter } from "lucide-react";
+import { Github, Linkedin, Twitter, CreditCard } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -6,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="bg-foreground/5 border-t border-border">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div className="space-y-4">
             <h3 className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
               Divine Dev Solutions
@@ -55,6 +56,28 @@ const Footer = () => {
           </div>
 
           <div className="space-y-4">
+            <h4 className="font-semibold text-lg">Legal</h4>
+            <ul className="space-y-2">
+              <li>
+                <Link 
+                  to="/privacy-policy"
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/terms-and-conditions"
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
+                  Terms & Conditions
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div className="space-y-4">
             <h4 className="font-semibold text-lg">Follow Us</h4>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-lg bg-secondary hover:bg-primary/10 flex items-center justify-center transition-colors group">
@@ -70,10 +93,29 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-border pt-8 text-center">
-          <p className="text-muted-foreground">
-            © {currentYear} Divine Dev Solutions. All rights reserved.
-          </p>
+        <div className="border-t border-border pt-8">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+            <p className="text-muted-foreground text-center md:text-left">
+              © {currentYear} Divine Dev Solutions. All rights reserved.
+            </p>
+            <div className="flex items-center gap-4">
+              <span className="text-sm text-muted-foreground">We Accept:</span>
+              <div className="flex items-center gap-3">
+                <div className="px-3 py-2 bg-background rounded border border-border flex items-center justify-center">
+                  <span className="text-xs font-semibold text-foreground">VISA</span>
+                </div>
+                <div className="px-3 py-2 bg-background rounded border border-border flex items-center justify-center">
+                  <span className="text-xs font-semibold text-foreground">MC</span>
+                </div>
+                <div className="px-3 py-2 bg-background rounded border border-border flex items-center justify-center">
+                  <span className="text-xs font-semibold text-foreground">AMEX</span>
+                </div>
+                <div className="px-3 py-2 bg-background rounded border border-border flex items-center justify-center">
+                  <CreditCard className="w-4 h-4 text-foreground" />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
