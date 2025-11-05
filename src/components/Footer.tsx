@@ -102,16 +102,18 @@ const Footer = () => {
               <span className="text-sm text-muted-foreground">We Accept:</span>
               <div className="flex items-center gap-3">
                 <div className="px-3 py-2 bg-background rounded border border-border flex items-center justify-center">
-                  <span className="text-xs font-semibold text-foreground">VISA</span>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXi87nPggz4Oyk_rbUxrjDFfGW2Em2sBapmw&s" className="h-8"/>
                 </div>
                 <div className="px-3 py-2 bg-background rounded border border-border flex items-center justify-center">
-                  <span className="text-xs font-semibold text-foreground">MC</span>
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Mastercard_2019_logo.svg" className="h-8"/>
                 </div>
                 <div className="px-3 py-2 bg-background rounded border border-border flex items-center justify-center">
-                  <span className="text-xs font-semibold text-foreground">AMEX</span>
+                                    <img src="https://cdn-icons-png.flaticon.com/512/179/179431.png" className="h-8"/>
+
                 </div>
                 <div className="px-3 py-2 bg-background rounded border border-border flex items-center justify-center">
-                  <CreditCard className="w-4 h-4 text-foreground" />
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFkT4bdkUrztzXha598tvVXUllrxOXaeRGVw&s" className="h-8"/>
+
                 </div>
               </div>
             </div>

@@ -1,9 +1,13 @@
 import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const TermsAndConditions = () => {
   return (
+    <>
+    <Header/>
     <div className="min-h-screen bg-background">
       <header className="border-b border-border bg-background/80 backdrop-blur-lg sticky top-0 z-50">
         <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -145,6 +149,9 @@ const TermsAndConditions = () => {
         </div>
       </main>
     </div>
+    <Footer/>
+    </>
+    
   );
 };
 
