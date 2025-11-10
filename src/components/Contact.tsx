@@ -15,12 +15,12 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Phone",
-    content: "+1 (555) 123-4567",
+    content: "+44 7377 923072",
   },
   {
     icon: MapPin,
     title: "Location",
-    content: "San Francisco, CA",
+    content: "13 highwood Road Newcastle upon tyne NE15 7UR",
   },
 ];
 
