@@ -10,7 +10,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    content: "hello@divinedevsolutions.com",
+    content: "hello@IVA.com",
   },
   {
     icon: Phone,

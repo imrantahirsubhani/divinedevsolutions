@@ -14,7 +14,7 @@ const PrivacyPolicy = () => {
         <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 md:h-20">
             <Link to="/" className="text-xl md:text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent hover:opacity-80 transition-opacity">
-              Divine Dev Solutions
+              IVA  Solutions
             </Link>
             <Link to="/">
               <Button variant="ghost">
@@ -36,7 +36,7 @@ const PrivacyPolicy = () => {
           <section className="space-y-4">
             <h2 className="text-2xl font-bold">Introduction</h2>
             <p className="text-muted-foreground leading-relaxed">
-              Divine Dev Solutions ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
+              IVA Dev Solutions ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
             </p>
           </section>
 
@@ -131,7 +131,7 @@ const PrivacyPolicy = () => {
               If you have any questions about this Privacy Policy, please contact us at:
             </p>
             <ul className="list-none space-y-2 text-muted-foreground">
-              <li>Email: hello@divinedevsolutions.com</li>
+              <li>Email: hello@IVAsolutions.com</li>
               <li>Phone: +1 (555) 123-4567</li>
             </ul>
           </section>

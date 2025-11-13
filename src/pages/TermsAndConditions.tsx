@@ -13,7 +13,7 @@ const TermsAndConditions = () => {
         <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 md:h-20">
             <Link to="/" className="text-xl md:text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent hover:opacity-80 transition-opacity">
-              Divine Dev Solutions
+              IVA Dev Solutions
             </Link>
             <Link to="/">
               <Button variant="ghost">
@@ -35,14 +35,14 @@ const TermsAndConditions = () => {
           <section className="space-y-4">
             <h2 className="text-2xl font-bold">Agreement to Terms</h2>
             <p className="text-muted-foreground leading-relaxed">
-              By accessing or using the services of Divine Dev Solutions, you agree to be bound by these Terms and Conditions. If you disagree with any part of these terms, you may not access our services.
+              By accessing or using the services of IVA Solutions, you agree to be bound by these Terms and Conditions. If you disagree with any part of these terms, you may not access our services.
             </p>
           </section>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-bold">Services</h2>
             <p className="text-muted-foreground leading-relaxed">
-              Divine Dev Solutions provides software development, design, and consulting services. The specific scope of services will be outlined in individual project agreements or statements of work.
+             IVA Solutions provides software development, design, and consulting services. The specific scope of services will be outlined in individual project agreements or statements of work.
             </p>
             <h3 className="text-xl font-semibold mt-4">Service Delivery</h3>
             <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
@@ -99,7 +99,7 @@ const TermsAndConditions = () => {
           <section className="space-y-4">
             <h2 className="text-2xl font-bold">Limitation of Liability</h2>
             <p className="text-muted-foreground leading-relaxed">
-              To the maximum extent permitted by law, Divine Dev Solutions shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from or relating to our services. Our total liability shall not exceed the amount paid by you for the specific services giving rise to the claim.
+              To the maximum extent permitted by law, IVA Solutions shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from or relating to our services. Our total liability shall not exceed the amount paid by you for the specific services giving rise to the claim.
             </p>
           </section>
 
@@ -125,7 +125,7 @@ const TermsAndConditions = () => {
           <section className="space-y-4">
             <h2 className="text-2xl font-bold">Governing Law</h2>
             <p className="text-muted-foreground leading-relaxed">
-              These Terms and Conditions shall be governed by and construed in accordance with the laws of the jurisdiction in which Divine Dev Solutions operates, without regard to its conflict of law provisions.
+              These Terms and Conditions shall be governed by and construed in accordance with the laws of the jurisdiction in which IVA  Solutions operates, without regard to its conflict of law provisions.
             </p>
           </section>
 
@@ -142,7 +142,7 @@ const TermsAndConditions = () => {
               For questions about these Terms and Conditions, please contact us at:
             </p>
             <ul className="list-none space-y-2 text-muted-foreground">
-              <li>Email: hello@divinedevsolutions.com</li>
+              <li>Email: hello@IVAsolutions.com</li>
               <li>Phone: +1 (555) 123-4567</li>
             </ul>
           </section>

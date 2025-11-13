@@ -22,7 +22,7 @@ const About = () => {
               </span>
             </h2>
             <p className="text-lg text-muted-foreground">
-              At Divine Dev Solutions, we're passionate about transforming ideas into powerful digital products. 
+              At IVA Solutions, we're passionate about transforming ideas into powerful digital products. 
               Our team of experienced developers, designers, and strategists work together to deliver solutions 
               that exceed expectations.
             </p>

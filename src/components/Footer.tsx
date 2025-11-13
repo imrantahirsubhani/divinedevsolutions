@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div className="space-y-4">
             <h3 className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Divine Dev Solutions
+              IVA Dev Solutions
             </h3>
             <p className="text-muted-foreground">
               Transforming ideas into exceptional digital experiences
@@ -96,7 +96,7 @@ const Footer = () => {
         <div className="border-t border-border pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-muted-foreground text-center md:text-left">
-              © {currentYear} Divine Dev Solutions. All rights reserved.
+              © {currentYear} IVA Dev Solutions. All rights reserved.
             </p>
             <div className="flex items-center gap-4">
               <span className="text-sm text-muted-foreground">We Accept:</span>

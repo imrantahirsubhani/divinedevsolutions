@@ -5,7 +5,7 @@ const testimonials = [
   {
     name: "Sarah Johnson",
     role: "CEO, TechStart Inc",
-    content: "Divine Dev Solutions transformed our vision into reality. Their technical expertise and dedication to quality are unmatched.",
+    content: "IVA Dev Solutions transformed our vision into reality. Their technical expertise and dedication to quality are unmatched.",
     rating: 5,
   },
   {
