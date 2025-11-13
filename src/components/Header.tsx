@@ -32,7 +32,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           <div className="flex items-center">
             <button onClick={() => scrollToSection("hero")} className="text-xl md:text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent hover:opacity-80 transition-opacity">
-             IVA Solutions
+             Divine Dev Solutions
             </button>
           </div>
 
